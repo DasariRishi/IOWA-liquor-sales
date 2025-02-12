@@ -14,17 +14,20 @@ This project automates the extraction, transformation, and visualization of Iowa
   - **dbt** used to transform and clean data.
 - **Dashboard with Looker Studio**: Provides insights into liquor sales trends.
 
-## Repository Structure
+## 📁 Repository Structure
 ```
-├── models/                # dbt models for data transformation
-├── analyses/              # Analysis files
-├── tests/                 # dbt tests
-├── seeds/                 # Seed data
-├── macros/                # dbt macros
-├── snapshots/             # Snapshot models
-├── docker-compose.yml     # Docker setup for Kestra
-├── kestra_flows/          # Kestra workflow definitions
-├── README.md              # Project documentation
+📂 Iowaliquorsales-dbt-pipeline
+├── 📂 models             # dbt models for data transformation
+│   ├── core             # Core transformation models
+│   ├── staging          # Staging models
+├── 📂 tests             # dbt tests and validations
+├── 📂 macros            # dbt macros
+├── 📂 seeds             # Seed data (if any)
+├── 📂 scripts           # Python scripts for additional processing
+├── 📂 kestra            # Kestra YAML workflow files
+├── project_dbt.yml      # dbt project configuration
+├── README.md            # Project documentation
+└── requirements.txt     # Python dependencies
 ```
 
 ## Explore the Repository
