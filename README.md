@@ -46,7 +46,8 @@ This project automates the extraction, transformation, and visualization of Iowa
 3. **Dashboard & Analysis**:
    - The transformed table is used as a source for **Looker Studio**.
    - The dashboard provides insights into sales trends, popular products, and revenue patterns.
-
+## Architecture
+![project_Architecture_diagram](images/Iowa_flowchart2.png)
 ## Technologies Used
 ### Languages:
 - SQL
